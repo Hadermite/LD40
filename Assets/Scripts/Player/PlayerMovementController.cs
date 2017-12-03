@@ -3,7 +3,7 @@
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMovementController : MonoBehaviour {
 
-    private const float MaxSpeed = 10f;
+    private const float MovementSpeed = 5f;
     private const float RunMultiplier = 2f;
     
     private Rigidbody2D body;
@@ -12,7 +12,7 @@ public class PlayerMovementController : MonoBehaviour {
         body = GetComponent<Rigidbody2D>();
     }
 
-    private void Update() {
+    private void FixedUpdate() {
         Vector3 movement = new Vector3 {
             x = Input.GetAxisRaw("Horizontal"),
             y = Input.GetAxisRaw("Vertical")
@@ -23,7 +23,7 @@ public class PlayerMovementController : MonoBehaviour {
             if (Input.GetKey(KeyCode.LeftShift)) {
                 multiplier = RunMultiplier;
             }
-            movement = movement.normalized * MaxSpeed * Time.deltaTime * multiplier;
+            movement = movement.normalized * MovementSpeed * multiplier * Time.deltaTime;
             body.MovePosition(transform.position + movement);
         }
     }
