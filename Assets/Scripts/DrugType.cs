@@ -26,7 +26,7 @@ public class DrugType {
     // The price the player has to pay for the drug per gram.
     public int PurchasePrice { get; private set; }
 
-    // How "dangerous" the drug is. This is affects the sentence you will get.
+    // How "dangerous" the drug is. This is affects the likelyhood of police trying to arrest the player.
     public int Intensity { get; private set; }
 
     private DrugType(string name, int purchasePrice, int intensity) {

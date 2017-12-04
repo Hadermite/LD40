@@ -24,7 +24,10 @@ public class PlayerMovementController : MonoBehaviour {
                 multiplier = RunMultiplier;
             }
             movement = movement.normalized * MovementSpeed * multiplier * Time.deltaTime;
-            body.MovePosition(transform.position + movement);
+            Vector3 newPosition = transform.position + movement;
+            newPosition.x = Mathf.Clamp(newPosition.x, -4.7f, 10);
+            newPosition.y = Mathf.Clamp(newPosition.y, -3.4f, 10);
+            body.MovePosition(newPosition);
         }
     }
 }

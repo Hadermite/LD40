@@ -47,7 +47,6 @@ public class Message {
         }
     }
 
-    // TODO: Add more phrases
     private static readonly string[] Phrases = {
         "Hey man, I'm interested in [AMOUNT] grams [TYPE] for [PRICE] €. Do you have in stock?",
         "[AMOUNT]g [TYPE] for [PRICE], u got any?",

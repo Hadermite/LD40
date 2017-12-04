@@ -5,7 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - DrugMarket
-  - Bullet
+  - Buyer
+  - PlayerBullet
+  - BuyerBullet
   layers:
   - Default
   - TransparentFX
