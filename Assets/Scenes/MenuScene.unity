@@ -275,8 +275,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 301121843}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 494, y: 325.5, z: 0}
-  m_LocalScale: {x: 0.6027778, y: 0.6027778, z: 0.6027778}
+  m_LocalPosition: {x: 501, y: 311, z: 0}
+  m_LocalScale: {x: 0.57592595, y: 0.57592595, z: 0.57592595}
   m_Children:
   - {fileID: 1845683135}
   - {fileID: 2034160549}
@@ -386,7 +386,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1642394378}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 719.5392, y: 75, z: 0}
+  m_LocalPosition: {x: 769.9035, y: 75, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2144615897}
@@ -460,7 +460,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1845683134}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -819.5392, y: 490, z: 0}
+  m_LocalPosition: {x: -869.9035, y: 490, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 301121847}
@@ -534,7 +534,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2034160548}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -769.5392, y: 340, z: 0}
+  m_LocalPosition: {x: -819.9035, y: 340, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 301121847}
@@ -577,27 +577,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Drug Dealer is a game where you want to maximize the amount of money you
-    make in the shortest time. You do this by selling drugs to people who contact
-    you. They will suggest a price and you can plan a meeting with them. But remember,
-    sometimes it''s too good to be true, it may be an undercover police. They will
-    often target more expensive and stronger drugs, and they tend to pay more. Pro
-    tip: wait until you have a weapon before you start trading the strong ones :)
-
-
-    Controls:
-
-    WASD to move, in combination with SHIFT to sprint.
-
-    LMB to shoot, aim with mouse pointer.
-
-    E to open your inventory.
-
-    B to open the equipment shop.
-
-    M to open recieved messages.
-
-    RETURN to interact with buildings and buyers.'
+  m_Text: "Drug Dealer is a game where you want to earn 10.000 \u20AC in the shortest
+    time. You do this by selling drugs to people who contact you. They will suggest
+    a price and you can plan a meeting with them. But remember, sometimes it's too
+    good to be true, it may be an undercover police. They will often target more expensive
+    and stronger drugs, and they tend to pay more. Pro tip: wait until you have a
+    weapon before you start trading the strong ones :)\n\nControls:\nWASD to move,
+    in combination with SHIFT to sprint.\nLMB to shoot, aim with mouse pointer.\nE
+    to open your inventory.\nB to open the equipment shop.\nM to open recieved messages.\nRETURN
+    to interact with buildings and buyers."
 --- !u!222 &2034160551
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -629,7 +617,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2144615896}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -719.5392, y: -440, z: 0}
+  m_LocalPosition: {x: -769.9035, y: -440, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1642394379}
